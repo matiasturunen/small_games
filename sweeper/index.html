@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sweeper</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js" ></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div>Miina sweeperi</div>
+        <canvas id="canvas" width="600" height="600" style="border:1px solid black;">
+            Your browser does not support canvas
+        </canvas>
+        <form id="optionsform" target="">
+            density
+            <input id="density" name="density"></input>
+            cell size
+            <input id="size" name="size"></input>
+            <button id="submitnappi">Restart</button>
+        </form>
+        <p>Huom! pieni solunleveys saattaa kaataa selaimesi!</p>
+    </body>
+</html>
