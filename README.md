@@ -1,2 +1,2 @@
-# small_games
+# Small games
 Small game projects
